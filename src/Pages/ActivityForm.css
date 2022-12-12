@@ -1,0 +1,83 @@
+.container-form {
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.title h4 {
+    margin: 5px auto;
+}
+
+.date-picker, .title-activity, .activities-counter, .activities-field {
+    margin: 15px auto;
+    padding: 0 15px;
+}
+
+.date-picker label,  .title-activity label, .activities-counter label{
+    margin: auto;
+}
+
+.title-activity input, .activities-field input {
+    width: 230px;
+    height: 20px;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.23);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    padding: 16.5px 14px;
+}
+
+.title-activity input:hover, .activities-field input:hover {
+    border-color: black;
+}
+
+.title-activity input:focus, .activities-field input:focus {
+    outline: none !important;
+    border: 2px solid #3d8bd9;
+}
+.counter {
+    width: 259px;
+    padding-left: 0;
+}
+.counter input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+.counter button {
+    margin: auto;
+    height: 30px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: #0a67b2;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 1px 2px;
+}
+
+.activities-field  {
+    overflow: hidden;
+}
+
+.activities-field input {
+    float: right;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.btn-submit {
+    border-radius: 3px;
+    background-color: #0a67b2;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 5px 8px;
+}
+
